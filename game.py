@@ -51,7 +51,7 @@ running = True
 results = lambda you, tod: f"Your shoot: {you} Tod's shoot: {tod}"
 
 
-print('Lets play a game of rock paper sisors!')
+print('Lets play a game of rock paper scissors!')
 print('we will play best of three. \nType "start" if you are ready to start a new game\nType "quit" when you want to leave')
 
 while running == True:
@@ -61,7 +61,7 @@ while running == True:
         player = Player()
         game = True
         while game == True:
-            print('\nAfter seeing the word shoot, \n you will have one second to respond with the letters \n"r" for rock, "p" for paper, or "s" for sisors.\n \n ')
+            print('\nAfter seeing the word shoot, \n you will have one second to respond with the letters \n"r" for rock, "p" for paper, or "s" for scissors.\n \n ')
             time.sleep(3)
             print('\nfailure to respond within one second, with a priviously specified character\nwill result in you forfeiting the round.\n \n')
             time.sleep(3)
@@ -71,7 +71,7 @@ while running == True:
             time.sleep(0.5)
             print('Paper...')
             time.sleep(0.3)
-            print('sisors...')
+            print('scissors...')
             time.sleep(0.25)
             print('shoot!')
             
